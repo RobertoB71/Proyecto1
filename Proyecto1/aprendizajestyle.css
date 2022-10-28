@@ -1,0 +1,129 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+header{
+    background-color: black;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 0 3px gray;
+    text-transform: uppercase;
+}
+
+header ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    align-items: center;
+}
+
+header li a{
+    color: white;
+    text-decoration: none;
+    padding: auto;
+}
+
+header li a:hover{
+    color: aqua;
+}
+
+
+.banner{
+    position: relative;
+}
+
+.jpg{
+    width: 100%;
+}
+
+.grupo{
+    position: absolute;
+    top: 45%;
+    left: 35%;
+}
+
+.banner h1{
+    color: white;
+    font-size: 80px;
+    text-align: center;
+}
+
+
+
+.cont{
+
+    display: flex;
+
+    flex-direction: column;
+    margin-top: 50px;
+
+}
+
+.sec{
+
+    background-color: white;
+    display: flex;
+    text-align: left;
+    font-size: small;
+    
+    align-items: center;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 50px;
+    border-bottom: 2px solid #acaaa8;
+    height: 550px;
+
+
+}
+
+.c{
+    display: flex;
+    flex-direction: column;
+    border: none;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    width: fit-content;
+    height: fit-content;
+    width: fit-content;
+
+}
+.sec-n{
+width: 90%;
+font-size: 60px;
+}
+p{
+width: 90%;
+font-size: 35px;
+}
+
+.img{
+    width: 600px;
+    height: 500px;
+}
+
+.sec-2{
+
+    background-color: white;
+    display: flex;
+    text-align: left;
+    font-size: small;
+    
+    align-items: center;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 50px;
+    border-bottom: 2px solid #acaaa8;
+    height: 750px;
+
+
+}
+
+.img2{
+    width: 800px;
+    height: 600px;
+}

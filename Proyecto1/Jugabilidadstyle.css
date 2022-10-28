@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:darkslategrey;
+}
+header{
+    background-color: black;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 0 3px gray;
+    text-transform: uppercase;
+}
+
+header ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    align-items: center;
+}
+
+header li a{
+    color: white;
+    text-decoration: none;
+    padding: 13px;
+}
+
+header li a:hover{
+    color: aqua;
+}
+
+.contacto div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.contacto div h1{
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    margin-top: 15px;
+    color: gold;
+}
+.contacto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contacto hr{
+    margin-top: 10px;
+    color: black;
+    width: 75%;
+}
+
+
+
+.boton{
+    text-align: center;
+    color:  #ff3842;
+    background-color: black;
+
+    width: 300px;
+    text-decoration: none;
+    border-radius: 30px;
+    padding: 10px;
+    
+
+}
+
+
+.sec{
+
+    display: flex;
+
+    flex-direction: column;
+    margin-top: 50px;
+
+}
+
+.juego{
+
+    background-color: #f5f7fa;
+    display: flex;
+    text-align: left;
+    font-size: small;
+    
+    align-items: center;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 50px;
+    border-bottom: 2px solid #acaaa8;
+    height: 300px;
+
+
+}
+
+.c{
+    display: flex;
+    flex-direction: column;
+    border: none;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    width: fit-content;
+    height: fit-content;
+    width: fit-content;
+
+}
+.juego-n{
+width: 90%;
+font-size: 30px;
+}
+p{
+width: 90%;
+font-size: 20px;
+}
+
+.img{
+    width: 400px;
+    height: 300px;
+}
+
+.t{
+
+    font-size: medium;
+    font-weight: bold;
+    border: solid  black;
+    color: gold;
+    
+}
+

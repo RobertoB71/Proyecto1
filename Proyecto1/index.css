@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+body{
+    margin: 0px;
+}
+
+header{
+    background-color: black;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 0 3px gray;
+    text-transform: uppercase;
+}
+
+header ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    align-items: center;
+    margin: 0px;
+}
+
+header li a{
+    color: white;
+    text-decoration: none;
+    padding: auto;
+}
+
+header li a:hover{
+    color: aqua;
+}
+
+.banner{
+    width: 100%;
+}

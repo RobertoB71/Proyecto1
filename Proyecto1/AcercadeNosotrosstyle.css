@@ -1,0 +1,67 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header{
+    background-color: black;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 0 3px gray;
+    text-transform: uppercase;
+}
+
+header ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    align-items: center;
+}
+
+header li a{
+    color: white;
+    text-decoration: none;
+    padding: 13px;
+}
+
+header li a:hover{
+    color: aqua;
+}
+
+.banner{
+    width: 100%;
+}
+
+.contacto div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.contacto div h1{
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    margin-top: 15px;
+}
+.contacto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header li a{
+    color: white;
+    text-decoration: none;
+}
+.contacto hr{
+    margin-top: 10px;
+    color: black;
+    width: 75%;
+}
+.contacto p{
+    width: 50%;
+}
