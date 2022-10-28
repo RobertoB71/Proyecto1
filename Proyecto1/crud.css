@@ -1,10 +1,13 @@
 *{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 0;
+    margin: 0;
 
 }
 
 body{
-    margin: 0px;
+
+    background-color: #feedd5;
 }
 
 
@@ -39,65 +42,89 @@ header li a:hover{
 nav{
     display: flex;
     flex-direction: row;
-
-
-
-
 }
 
-.line{
-background-color: white;
-height: 65%;
-width: 3px;
-
-}
-
-a{
-    text-decoration: none;
-    color: white;
-
-}
-
-li{
-    list-style: none;
-    margin: 0px;
-   
-}
 
 .inicio{
-
  margin-left: 30%;
 }
 
+.inicio input{
+margin-left: 10%;
+
+}
+
 .tabla{
+color: white;
 display: flex;
-flex-direction: row;
-background-color: #dceafc;
-align-items: center;
+background-color: black;
 justify-content: center;
-width: 50%;
-margin-left: 25%;
-border-bottom: 1px solid #8f9cad;
-    border-left: 1px solid #8f9cad;
-
-}
-
-.accion{
-display: flex;
-flex-direction: column;
-width: 135px;
-background-color: #dceafc;
-margin-top: 20px;
+text-align: left;
+font-size: 15px;
+width: 60%;
+height: auto;
+margin-left: 20%;
+border-bottom: 2px solid gray;
+padding-bottom: 2%;
 
 
 }
+
+table{
+    color: black;
+    background-color: white;
+    margin: 0px;
+    border-collapse: collapse;
+
+}
+
+
+th{
+text-align: center;
+}
+
+td {
+    padding: 20px;
+    border: 1px solid black;
+
+}
+
+button{
+    background-color: #84b6f4;
+    color: white;
+    border: 2px solid #84b6f4;
+
+
+    
+    
+}
+
+.editar{
+background-color: green;
+color: white;
+border:none;
+margin-left: 5px;
+width: 60px;
+
+}
+
+.eliminar{
+    background-color: red;
+    color: white;
+    border:none;
+    margin-left: 5px;
+    width: 60px;
+
+}
+
+
 .actuagrega{
     display: flex;
     flex-direction: row;
-    top: 50%;
-    left: 50%;
     align-items: center;
-    margin-left: 5%;
+    margin-left: 18%;
+
+    
 
     
 }
@@ -105,25 +132,28 @@ margin-top: 20px;
 .agregar{
     display: flex;
     flex-direction: column;
-    margin: 5%;
-    background-color: #dceafc;
-    width: 40%;
+    margin: 2.5%;
+    background-color: black;
+    color: white;
+    width: 20%;
     height: 400px;
     padding: 5%;
-    border-bottom: 1px solid #8f9cad;
-    border-left: 1px solid #8f9cad;
+    border-bottom: 2px solid gray;
+   
 }
 
 .actualizar{
     display: flex;
     flex-direction: column;
-    margin: 5%;
-    background-color: #dceafc;
-    width: 40%;
+    margin: 2.5%;
+    margin-left: 10.5%;
+    background-color: black;
+    color: white;
+    width: 20%;
     height: 400px;
     padding: 5%;
 
-    border-bottom: 1px solid #8f9cad;
-    border-left: 1px solid #8f9cad;
+    border-bottom: 2px solid gray;
+
 
 }
