@@ -127,3 +127,59 @@ font-size: 35px;
     width: 800px;
     height: 600px;
 }
+/*Footer*/
+.conf22 img{
+    width: 40%;
+    padding: 15px;
+   
+}
+.conf22 {
+    margin-right: 35px;
+}
+
+.conf2{
+    display: flex;
+    justify-content:space-between;
+    margin-left: 15px;
+    padding: 15px;
+}
+
+.conf3{
+    display: flex;
+    justify-content:space-between;
+    margin-left: 20px;
+}
+
+.conf3 h2{
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+.conf4{
+    display: flex;
+    justify-content:space-between;
+    list-style-type: none;
+    text-align: center;
+}
+
+.conf4 h2{
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+.conf img{
+    padding: 15px;
+    width: 100%;
+    margin-left: 18px;
+}
+
+footer img{
+    width: 5%;
+}
+
+.ultima{
+    background-color: black;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
