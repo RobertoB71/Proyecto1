@@ -4,33 +4,56 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Index.css">
-    <title>ESport</title>
+    <title>RankingPage</title>
+
+    <link rel="stylesheet" href="Ranking.css">
 </head>
 <body>
+    <!--Comienzo del nav-->
     <header>
+       
         <a href="paginaprincipal.html"><img src="img/Logo.png" alt=""></a>
-            <ul class="Contenedor">
-                <li><a href="paginaprincipal.html">principal</a></li>
-                <li><a href="crud.html">Administrar</a></li>
-                <li><a href="Contactenos.html">contacto</a></li>
-                <li><a href="description.html">descripción</a></li>
-                <li><a href="#">búsqueda</a></li>
-                <li><a href="aprendizaje.html">aprendizaje</a></li>
-                <li><a href="Jugabilidad.html">jugabilidad</a></li>
-                <li><a href="RankingPage.html">ranking</a></li>
-                <li><a href="Reporte.html">reportes</a></li>
-                <li><a href="perfil.html">perfil</a></li>
-                <li><a href="login.html">Ingresar</a></li>
-                <li><a href="AcercadeNosotros.html">Nosotros</a></li>
-            </ul>
-    </header>
+    
+    
+        <div class="menu">
+   
+        
+            <nav id="nav" class="NavB">
+            
+                <ul>
+                    <li><a href="paginaprincipal.html">principal</a></li>
+                    <li><a href="crud.html">Administrar</a></li>
+                    <li><a href="Contactenos.html">contacto</a></li>
+                    <li><a href="description.html">descripción</a></li>
+                    <li><a href="#">búsqueda</a></li>
+                    <li><a href="aprendizaje.html">aprendizaje</a></li>
+                    <li><a href="Jugabilidad.html">jugabilidad</a></li>
+                    <li><a href="RankingPage.html">ranking</a></li>
+                    <li><a href="Reporte.html">reportes</a></li>
+                    <li><a href="perfil.html">perfil</a></li>
+                    <li><a href="login.html">Ingresar</a></li>
+                    <li><a href="AcercadeNosotros.html">Nosotros</a></li>
+                </ul>
+
+            
+            </nav>
+            <div class="bars__menu" id="bMenu">
+                <span class="line1__bars-menu"></span>
+                <span class="line2__bars-menu"></span>
+                <span class="line3__bars-menu"></span>
+            </div>
+        </div>
+
+</header>    
+<!--Comienzo del nav-->
     <section>
         <img class="banner" src="img/banner1.jpg" alt="">
     </section>
-    
-    <section class="Contenedorflex msr-top-20">
-        <h1 class="">RANKING</h1>
+    <br>
+    <br>
+    <section class="Contenedorflex">
+        <h1 >RANKING</h1>
+        <br>
         <section id="conf">
             <div><img src= "img/JuegoTop/Carrito el juego.png" alt=""></div>
             <div><img src= "img/JuegoTop/counter.png" alt=""></div>
@@ -48,7 +71,7 @@
         <section class="conf2">
             <section class="conf22">
                 <div>
-                    <img src="img/Logo.png" alt="">
+                    <img class="final" src="img/Logo.png" alt="">
                     <h5>ERROR 404. No se que poner</h5>
                 </div>
             </section>
@@ -71,5 +94,8 @@
             </section>
         </section>
     </footer>
+    
+    
+    <script src="Sc.js"></script>
 </body>
 </html>
