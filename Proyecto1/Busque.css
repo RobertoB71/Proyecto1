@@ -336,6 +336,14 @@ input{
     }
 }
 
+.contenedor h1{
+    padding: -5px;
+    margin: 5px;
+    background-color: black;
+    color: #ffffff;
+
+    opacity: 100%;  
+  }
 
 
 /*Final de Responsive*/
