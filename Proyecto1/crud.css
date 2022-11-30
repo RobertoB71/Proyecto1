@@ -40,6 +40,7 @@ body{
 
 header{
     background-color: black;
+    background-size: cover;
     color: white;
     padding: 15px;
     text-align: center;
@@ -259,6 +260,9 @@ width: 60px;
 
 
 @media screen and (max-width:1300px){
+
+   
+
     .menu{
         display: flex;
         justify-content: end;
@@ -267,6 +271,7 @@ width: 60px;
         display: block;
     }
     header{
+
         padding: 20px;
     }
    
@@ -277,13 +282,134 @@ width: 60px;
     right: 0;
     width: 100vw;
     background: black;
-    transition: 0.2s;
+    transition: 0.5s;
    }
   
    .NavB ul li{
     display: block;
-    width: fit-content;
+    width: 100%;
     margin: 14px auto 14px auto;
     text-align: center;
    }
-}
+
+   .inicio{
+    margin-left: 0%;
+    margin-right: 0%;
+ margin-bottom: 5%;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ text-align: center;
+   }
+   .inicio input{
+    border-radius: 5px;
+    margin-left: 0%;
+    margin-right: 0%;
+
+    
+    }
+
+
+   .tabla{
+    background-color: black;
+    color: white;
+    display: flex;
+    text-align: left;
+    font-size:50%;
+    border-bottom: 2px solid gray;
+    height: 20%;
+    width: 100%;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    }
+    
+    table{
+        background-color: white;
+        background-size: cover;
+        border-collapse: collapse;
+        padding: auto;
+        table-layout: auto;
+        margin-right: 0%;
+        margin-left: 0%;
+
+    
+    }
+    
+    
+    th{
+    text-align: center;
+    }
+    
+    td {
+        border: 1px solid black;
+    
+    }
+    
+    button{
+        background-color: #84b6f4;
+        color: white;
+        border: 2px solid #84b6f4;
+    position: relative;
+        height: auto;
+        width:auto;
+    font-size: 150%;
+        
+        
+    }
+    
+    .editar{
+    background-color: green;
+    color: white;
+    border:none;
+    
+    }
+    
+    .eliminar{
+        background-color: red;
+        color: white;
+        border:none;
+    }
+    
+    
+    .actuagrega{
+        display: flex;
+        flex-direction: column;
+        margin-left: 0%;
+        margin-right: 0%;  
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .agregar{
+        background-color: black;    
+        display: flex;
+        margin: 0%;
+        flex-direction: column;
+        color: white;
+        padding: 5%;
+        border-bottom: 2px solid gray;
+        width: 100%;
+        
+        margin-left: 0%;
+
+        
+    }
+    
+    .actualizar{
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        margin: 0%
+        color: white;
+        padding: 5%;
+        border-bottom: 2px solid gray;
+        width: 100%;
+        margin-right: 0%;
+        margin-left: 0%;
+    }
+    
+
+
+}   
